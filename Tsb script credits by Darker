@@ -95,7 +95,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Nosakatan Moveset (The Strongest Hero)",
+	Name = "True Nosakatan Moveset (The Strongest Hero)",
 	Callback = function()
       		loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-to-True-Nosakatan-18742"))()
   	end    
