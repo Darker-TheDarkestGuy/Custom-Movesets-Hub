@@ -18,7 +18,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 local Tab = Window:MakeTab({
 	Name = "Custom Movesets 1",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://16274800774",
 	PremiumOnly = false
 })
 
@@ -38,7 +38,7 @@ Name = <string> - The name of the section.
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Notification content... what will it say??",
+	Content = "Hub Made By Darker In Discord",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -168,7 +168,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "Custom Movesets 2",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://16274800774",
 	PremiumOnly = false
 })
 
@@ -1410,7 +1410,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://7074019216",
 	PremiumOnly = false
 })
 
@@ -1546,7 +1546,7 @@ Callback = <function> - The function of the button.
 ]]
 local Tab = Window:MakeTab({
 	Name = "Auto Combos",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://932460399",
 	PremiumOnly = false
 })
 
@@ -1626,7 +1626,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "Scripts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://46186544",
 	PremiumOnly = false
 })
 
@@ -1694,7 +1694,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "Admins Commands",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://16005457577",
 	PremiumOnly = false
 })
 
@@ -1738,7 +1738,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "Player",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://17599296016",
 	PremiumOnly = false
 })
 
