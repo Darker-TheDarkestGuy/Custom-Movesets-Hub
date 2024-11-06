@@ -1277,9 +1277,9 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "Minos Prime V3 Moveset (Hero Hunter)",
 	Callback = function()
-      		_G.SkipIntro = true -- set to true if you want to skip the intro
+      		_G.SkipIntro = true -- set to false if you dont want to skip the intro
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/MinosPrimeTest/refs/heads/main/Prime"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonfly5101/Minosr/refs/heads/main/Prime%20Minos.txt"))()
   	end    
 })
 
