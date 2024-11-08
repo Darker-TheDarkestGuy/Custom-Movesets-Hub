@@ -1432,6 +1432,18 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Yuji V0.8 Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/SaitamaToYuji/main/SaitamaToYuji.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
 	Icon = "rbxassetid://7074019216",
