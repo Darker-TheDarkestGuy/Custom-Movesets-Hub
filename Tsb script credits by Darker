@@ -283,7 +283,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "A-Train Character Moveset (The Strongest Hero)",
+	Name = "A-Train Moveset (The Strongest Hero)",
 	Callback = function()
       		loadstring(game:HttpGet("https://github.com/l0ckerV5/Roblox-Scripts/raw/main/The%20Strongest%20Battlegrounds/Custom%20Character/A-Train"))()
   	end    
@@ -1508,6 +1508,54 @@ Tab:AddButton({
 	Name = "A-60 Moveset (Destructive Cyborg)(Use In Characters Section)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/A-60%20moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "A-Train V2 Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://paste.ee/r/AnZ5j"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Wind Turbo Moveset (Every Characters)(Use In Characters Selection)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TemuWelcomeChildempeoror/Temuwind-turbo/refs/heads/main/WINDTURBOBYWELXOME%25"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Weakest Dummy Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobieScripter/NoobieScripter/refs/heads/main/Weakest%20Dummy%20V1",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Kyra Toji Moveset (Blade Master)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://paste.ee/r/0uIxM"))()
   	end    
 })
 
