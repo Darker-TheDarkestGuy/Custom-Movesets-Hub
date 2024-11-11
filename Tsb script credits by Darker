@@ -1564,6 +1564,18 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Super Senior Gojo Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/r6LnIF2W/raw"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
 	Icon = "rbxassetid://7074019216",
