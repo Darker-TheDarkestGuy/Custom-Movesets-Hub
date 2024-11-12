@@ -1600,6 +1600,30 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Vegeta Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JcBoomin/UEVEGETA/refs/heads/main/Script"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Mahoraga Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/gYrU8dyL"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
 	Icon = "rbxassetid://7074019216",
