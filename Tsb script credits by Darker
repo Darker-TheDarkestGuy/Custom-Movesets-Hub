@@ -1648,6 +1648,30 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Megumi X Mahoraga Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Megumi%20X%20Mahoraga%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Sun Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Sun%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
 	Icon = "rbxassetid://7074019216",
