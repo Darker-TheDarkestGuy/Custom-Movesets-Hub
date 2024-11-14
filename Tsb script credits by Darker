@@ -1251,18 +1251,6 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Emoji Moveset (The Strongest Hero)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bre5be123/Ha/refs/heads/main/Emojiv"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-Tab:AddButton({
 	Name = "Random Moveset (The Strongest Hero)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bre5be123/Ha/refs/heads/main/Random"))()
