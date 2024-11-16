@@ -1820,6 +1820,19 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "KJ Hub (BEST)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DistritedYT/Scripts-/refs/heads/main/Dark%20Umbra%20(W.I.P)"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Auto Combos",
 	Icon = "rbxassetid://932460399",
