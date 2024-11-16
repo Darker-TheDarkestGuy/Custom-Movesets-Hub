@@ -1675,7 +1675,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "GT!Chara Moveset (The Strongest Hero)",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/44aS7zEi"))()
+      		loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
   	end    
 })
 
