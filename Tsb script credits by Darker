@@ -1721,6 +1721,74 @@ Callback = <function> - The function of the button.
 ]]
 
 local Tab = Window:MakeTab({
+	Name = "Special Movesets",
+	Icon = "rbxassetid://16890388049",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "LocalPlayer ?"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "Shinji Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Shinji%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Jun V3 Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Jun%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Normaller Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Normaller%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Angel Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Angel%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
 	Icon = "rbxassetid://7074019216",
 	PremiumOnly = false
