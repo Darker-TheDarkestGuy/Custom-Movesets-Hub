@@ -1699,7 +1699,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "Nameless Moveset (The Strongest Hero)",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BURNING-BG/NamelessMovesetOriginal-/refs/heads/main/Protected_2874119583760172.txt"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XQZ-official/NamelessMovesetOriginal/refs/heads/main/Nameless%20Obfuscated.txt"))()
   	end    
 })
 
@@ -1724,6 +1724,18 @@ Tab:AddButton({
 	Name = "Mastery Deku Moveset (Hero Hunter)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Mastery%20Deku%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Zeno Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Zeno%20Moveset"))()
   	end    
 })
 
