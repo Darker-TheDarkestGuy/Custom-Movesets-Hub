@@ -1744,6 +1744,18 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Venom Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Yourfavoriteguy/VENOM/refs/heads/main/EARLYACCESS'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Special Movesets",
 	Icon = "rbxassetid://16890388049",
