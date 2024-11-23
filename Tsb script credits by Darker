@@ -133,7 +133,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "Sonic Moveset (Hero Hunter)",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bre5be123/Ha/refs/heads/main/Snic"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Sonic%20Moveset"))()
   	end    
 })
 
@@ -1888,6 +1888,18 @@ Tab:AddButton({
 	Name = "Hallow Moveset (Brutal Demon)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Hallow%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Sonic V2 Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Sonic%20Moveset"))()
   	end    
 })
 
