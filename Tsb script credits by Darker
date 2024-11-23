@@ -1884,6 +1884,18 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Hallow Moveset (Brutal Demon)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Special-Movesets/refs/heads/main/Hallow%20Moveset"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Scripts Hubs",
 	Icon = "rbxassetid://7074019216",
