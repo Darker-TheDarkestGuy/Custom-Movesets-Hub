@@ -63,7 +63,7 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Reaper V2 Moveset (Brutal Demon)",
+	Name = "Apophenia V2 Moveset (Brutal Demon)",
 	Callback = function()
       		getgenv().Music = false 
 --Setting this to false usually fixes most executors
