@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Guest's TSB CM Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Darker's TSB Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -37,8 +37,8 @@ Name = <string> - The name of the section.
 ]]
 
 OrionLib:MakeNotification({
-	Name = "TSB CM Scripts",
-	Content = "Hub Made By Guest (The Last Guest) On Discord",
+	Name = "Welcome",
+	Content = "Hub Made By Darker In Discord",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -1808,6 +1808,30 @@ Tab:AddButton({
 	Name = "Heian Era Sukuna Moveset (Hero Hunter)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/sukunaongarou/main/Protected_7222200088522532.txt",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Gojo Six Eyes Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobieScripter/NoobieScripter/refs/heads/main/GOJO%20V2",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "SuperHuman Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AeryAlex/Scripts/refs/heads/main/SuperHuman%20Script%20(Obsfucted).txt"))()
   	end    
 })
 
