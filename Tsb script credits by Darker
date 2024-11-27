@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Guest's TSB Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Darker's TSB Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -38,7 +38,7 @@ Name = <string> - The name of the section.
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Hub Made Guest (The Last Guest) On Discord",
+	Content = "Hub Made By Darker In Discord",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -1832,6 +1832,42 @@ Tab:AddButton({
 	Name = "SuperHuman Moveset (The Strongest Hero)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/AeryAlex/Scripts/refs/heads/main/SuperHuman%20Script%20(Obsfucted).txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "King Of Curses Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/aerialasf/roblox-scripts-by-aerialasf-obviously-lol-and-made-by-xqz_zero-too-lol-because-yeas-and-yeah/refs/heads/main/KingOfCurses.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Scriptified Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/ldknjNa9/raw",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Mastery Atomic Samurai V2 (Blade Master)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/envix2759/c44be0f240a1b157b1723deb69bdd212/raw/af95b54853ba82fcb164c0c693c67b246e7a3cc6/gistfile1.txt"))()
   	end    
 })
 
