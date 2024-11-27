@@ -38,7 +38,7 @@ Name = <string> - The name of the section.
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Hub Made By Guest (The Last Guest) In Discord",
+	Content = "Hub Made By Guest (The Last Guest) On Discord",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -1868,6 +1868,18 @@ Tab:AddButton({
 	Name = "Mastery Atomic Samurai V2 (Blade Master)",
 	Callback = function()
       		loadstring(game:HttpGet("https://gist.githubusercontent.com/envix2759/c44be0f240a1b157b1723deb69bdd212/raw/af95b54853ba82fcb164c0c693c67b246e7a3cc6/gistfile1.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Cosmic Garou Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/envix2759/3598eaefc37ef3a8192636b5d0d8fef6/raw/ff5b84f79d68b6a70692c6bc30cd0c4c728b16df/gistfile1.txt"))()
   	end    
 })
 
