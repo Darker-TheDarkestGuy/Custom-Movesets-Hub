@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Darker's TSB Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Guest's TSB Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -38,7 +38,7 @@ Name = <string> - The name of the section.
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "Hub Made By Darker In Discord",
+	Content = "Hub Made Guest (The Last Guest) On Discord",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
