@@ -1936,6 +1936,30 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Arcophenix Moveset (Wild Psychic)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/SerialdesignationV-collab/Arcophenix-Special-/refs/heads/main/Arcophenix(Protected).txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Boros Moveset (The Strongest Hero)",
+	Callback = function()
+      		loadstring(game:HttpGet"https://paste.ee/r/XPIH5")()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Special Movesets",
 	Icon = "rbxassetid://16890388049",
