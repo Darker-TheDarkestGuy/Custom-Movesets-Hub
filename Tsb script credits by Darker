@@ -2146,6 +2146,99 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "Favilla Moveset (Hero Hunter)",
+	Callback = function()
+      		getgenv().domorph = true
+--morphs
+
+getgenv().Rate = .03
+--idle aura rate
+
+getgenv().nocam = false
+--changes if 1 is a cutscene or not
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FAVILLA.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "V1 Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/GarouToV1/refs/heads/main/GarouToV1.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Sung Jin Woo Moveset (Deadly Ninja)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/nova2ezz-SungjiWoo/refs/heads/main/Protected_7939201355282604.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Vergil Moveset (Blade Master)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/vergilmoveset/refs/heads/main/Protected_9080797627073616.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Guts Moveset (Brutal Demon)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/GutsMoveset/refs/heads/main/Protected_5038752653618776.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Optimus Prime Moveset (Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/optimusPrime/refs/heads/main/optimus%20prime.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Gojo Moveset (Domain Explansion)(Hero Hunter)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MyWifiSoBad/refs/heads/main/Garou%20to%20Gojo"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local Tab = Window:MakeTab({
 	Name = "Special Movesets",
 	Icon = "rbxassetid://16890388049",
@@ -2634,4 +2727,4 @@ Tab:AddSlider({
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = Value
 	end    
-})
+})5
