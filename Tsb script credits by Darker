@@ -2727,4 +2727,4 @@ Tab:AddSlider({
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = Value
 	end    
-})5
+})
