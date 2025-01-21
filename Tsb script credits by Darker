@@ -2239,42 +2239,6 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
-	Name = "Jodeline Joseph Moveset (Hero Hunter)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Jodeline%20Joseph%20Moveset"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-Tab:AddButton({
-	Name = "Emperor Of Time Moveset (The Strongest Hero)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XQZ-official/Anime-movesets/refs/heads/main/Emperor%20of%20time%20V2.txt"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-Tab:AddButton({
-	Name = "JK Moveset (The Strongest Hero)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltimateKJPlayer/JK-MOVESET-V1.0/refs/heads/main/JK%20MOVESET%20V1.0%20(1).txt"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 local Tab = Window:MakeTab({
 	Name = "Special Movesets",
 	Icon = "rbxassetid://16890388049",
